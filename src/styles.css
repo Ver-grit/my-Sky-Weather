@@ -1,0 +1,129 @@
+body {
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-purple-mountain-layer-background-with-sun-image_374065.jpg")
+      no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a {
+    color: #885df1;
+  }
+  
+  .weather-app {
+    background: #7468aaa2;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 40px 50px #dbd0ed87;
+  }
+  
+  header {
+    border-bottom: 1px solid #f9f7fe;
+    padding-bottom: 30px;
+  }
+  
+  .search-input {
+    background-color: #b8a3de;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    width: 75%;
+    border-radius: 6px;
+  }
+  .search-input::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  
+  .search-button {
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #b8a3de;
+    color: white;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 30px 0;
+  }
+  
+  .current-weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .current-city {
+    font-size: 58px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    color: white;
+    grid-column: 1 / -1;
+  }
+  
+  .current-details {
+    color: rgb(245, 243, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+  }
+  
+  .current-details strong {
+    color: #b2a4d3;
+  }
+  
+  .current-temperature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 48px;
+  }
+  
+  .current-temperature-icon {
+    position: relative;
+    top: -8px;
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+  .current-temperature-value {
+    font-size: 80px;
+    font-weight: bold;
+    color: #b8a3de;
+  }
+  
+  .current-temperature-unit {
+    font-size: 28px;
+    position: relative;
+    top: -38px;
+    color: #b8a3de;
+  }
+  
+  footer {
+    border-top: 1px solid #f8f8f8;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+  }
+  
+  footer a {
+    color: #b8a3de;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer span {
+    color: white;
+  }
+  
